@@ -15,7 +15,7 @@ test('module generator', function (t) {
                 return done(err);
             }
 
-            app = helpers.createGenerator('es6-module:app', [
+            app = helpers.createGenerator('es6-mocha-npm-module:app', [
                 '../../app'
             ]);
             done();
@@ -29,12 +29,14 @@ test('module generator', function (t) {
                 // add files you expect to exist here.
                 '.gitignore',
                 '.npmignore',
+                '.babelrc',
+                'babelhook.js',
                 'README.md',
                 'CHANGELOG.md',
+                'LICENSE',
                 'package.json',
-                'test/test-mymodule.js',
-                'test/harness.js',
-                'lib/index.js'
+                'test/index.js',
+                'src/index.js'
             ];
 
             helpers.mockPrompt(app, {

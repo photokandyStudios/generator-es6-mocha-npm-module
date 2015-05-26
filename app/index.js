@@ -59,6 +59,8 @@ var ModuleGenerator = yeoman.generators.Base.extend({
       this.creatorName = props.creatorName;
       this.githubUser = props.githubUser;
       this.email = props.email;
+      this.license = props.license;
+      this.stage = props.stage;
       this.appRoot = path.basename(process.cwd()) === this.appname ? this.destinationRoot() : path.join(this.destinationRoot(), this.appname);
 
       if (process.cwd() !== this.appRoot) {

@@ -40,7 +40,9 @@ test('module generator', function (t) {
             ];
 
             helpers.mockPrompt(app, {
-                'appname' : 'mymodule'
+                'appname' : 'mymodule',
+                'license' : 'MIT',
+                'stage'   : 0
             });
 
             app.options['skip-install'] = true;

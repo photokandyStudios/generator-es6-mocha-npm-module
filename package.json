@@ -1,20 +1,33 @@
 {
-  "name": "generator-es6-module",
-  "version": "1.0.2",
-  "description": "Yeoman generator for es6 based node.js modules using babel-runtime.",
+  "name": "generator-es6-mocha-npm-module",
+  "version": "1.0.0",
+  "description": "Yeoman generator for ES6-based NPM modules using core-js and Mocha.",
   "main": "app/index.js",
-  "repository": "https://github.com/tlivings/generator-es6-module",
+  "repository": "https://github.com/photokandyStudios/generator-es6-mocha-npm-module",
   "author": {
-    "name": "Trevor Livingston",
-    "email": "tlivings@gmail.com",
-    "url": "https://github.com/tlivings"
-  },
+      "name": "Trevor Livingston",
+      "email": "tlivings@gmail.com",
+      "url": "https://github.com/tlivings"
+    },
+  "contributors": [
+      {"name": "Kerri Shotts",
+       "email": "kerrishotts@gmail.com",
+       "url": "http://kerrishotts.github.io"},
+      {"name": "Trevor Livingston",
+       "email": "tlivings@gmail.com",
+       "url": "https://github.com/tlivings"
+      }
+  ],
   "files": [
     "app"
   ],
   "keywords": [
     "yeoman-generator",
     "es6",
+    "mocha",
+    "module",
+    "babel",
+    "core-js",
     "yeoman",
     "yo",
     "generator"
